@@ -14,7 +14,7 @@ with open("st.css") as f:
 col1,col2=st.columns(2,gap="small")
 with col1 :
     #     # Path ke foto
-    photo_path = "img/11zon_cropped.png"
+    photo_path = "img/bg.png"
     # Tampilkan foto
     st.image(photo_path, width=300)
 with col2 :
